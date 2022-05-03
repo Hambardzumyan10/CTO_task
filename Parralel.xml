@@ -1,0 +1,16 @@
+<suite name="BA">
+    <test name="AperJan" parallel = "methods" thread-count = "1">
+        <!--    <test name="AperJan" parallel = "methods" thread-count = "2">-->
+        <classes>
+            <class name="TestZeyChat">
+                <methods>
+                    <include name="LoginToTheSystemAndCompareDashboard"></include>
+                    <include name="DashboardActiveButtonsOrNot"></include>
+                    <include name="PersonalAccountAndAvatarVisibleOrNot"></include>
+                    <include name="KarenPageIsDisplayed"></include>
+                    <include name="NegativeTest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
